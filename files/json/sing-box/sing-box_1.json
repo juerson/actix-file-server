@@ -1,0 +1,39 @@
+{
+  "inbounds": [
+    {
+      "listen": "::",
+      "listen_port": 1080,
+      "set_system_proxy": false,
+      "sniff": true,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "outbounds": [
+    {
+      "flow": "",
+      "server": "23.170.40.77",
+      "server_port": 23450,
+      "tag": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "H9txbn5FUStm1BkJgpdXi20sqJuP82i3EJoty8lWJnI",
+          "short_id": "53dfb4a1f2fc77c9"
+        },
+        "server_name": "nijigen-works.jp",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "service_name": "k9lTrY3d",
+        "type": "grpc"
+      },
+      "type": "vless",
+      "uuid": "665ac122-452a-4bd1-8f92-056c959bc636"
+    }
+  ]
+}
